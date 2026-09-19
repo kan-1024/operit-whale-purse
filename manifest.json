@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.operit.whale_purse",
+  "version": "1.1.0",
+  "main": "main.js",
+  "api_version": "1.0.0",
+  "author": ["Operit AI"],
+    "display_name": {
+      "zh": "鲸鱼娘钱包（DeepSeek余额查询）",
+      "en": "Whale Purse (DeepSeek Balance)",
+      "default": "Whale Purse (DeepSeek Balance)"
+    },
+  "description": {
+    "zh": "在 Operit 侧边栏养一只紧盯 DeepSeek 余额的鲸鱼娘。\n\n1. 立绘摇摆\n2. 点击互动弹跳\n3. 30 秒自动刷新\n4. 余额分级警示（低于 10 元黄色气泡、低于 5 元红色气泡）。\n5. 自动读取 Operit 已配置的 DeepSeek Key，无需手动配置。\n\n灵感来自 DeepSeek Harness 的 whale-purse 桌宠。",
+    "en": "A whale-girl pet in the Operit sidebar watching your DeepSeek balance: bobbing sprite, tap to bounce and refresh, 30s auto refresh, tiered low-balance warnings (yellow below ¥10, red below ¥5). Auto-reads the configured DeepSeek key. Inspired by the whale-purse desktop pet for DeepSeek Harness.",
+    "default": "DeepSeek balance whale pet for the Operit sidebar (auto-reads the configured key)."
+  },
+  "logo": "whale_sprite",
+  "resources": [
+    {
+      "key": "whale_sprite",
+      "path": "resources/whale-sprite.png",
+      "mime": "image/png"
+    }
+  ],
+  "enabled_by_default": true
+}
